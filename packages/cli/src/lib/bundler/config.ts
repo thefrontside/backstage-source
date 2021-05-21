@@ -15,7 +15,8 @@
  */
 
 import fs from 'fs-extra';
-import { resolve as resolvePath } from 'path';
+import path, { resolve as resolvePath } from 'path';
+
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ModuleScopePlugin from 'react-dev-utils/ModuleScopePlugin';
@@ -170,7 +171,7 @@ export async function createConfig(
     performance: {
       hints: false, // we check the gzip size instead
     },
-    devtool: isDev ? 'cheap-module-eval-source-map' : 'source-map',
+    devtool: 'source-map', // https://webpack.js.org/configuration/devtool/#devtool
     context: paths.targetPath,
     entry: [require.resolve('react-hot-loader/patch'), paths.targetEntry],
     resolve: {
@@ -197,6 +198,11 @@ export async function createConfig(
       chunkFilename: isDev
         ? '[name].chunk.js'
         : 'static/[name].[chunkhash:8].chunk.js',
+      sourceMapFilename: isDev
+        ? '[name].chunk.js.map'
+        : 'static/[name].[chunkhash:8].chunk.js.map',
+      devtoolModuleFilenameTemplate: info =>
+        path.resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
     },
     plugins,
   };
@@ -249,7 +255,7 @@ export async function createBackendConfig(
     performance: {
       hints: false, // we check the gzip size instead
     },
-    devtool: isDev ? 'cheap-module-eval-source-map' : 'source-map',
+    devtool: 'source-map', // https://webpack.js.org/configuration/devtool/#devtool
     context: paths.targetPath,
     entry: [
       'webpack/hot/poll?100',
@@ -284,6 +290,11 @@ export async function createBackendConfig(
             devtoolModuleFilenameTemplate: 'file:///[absolute-resource-path]',
           }
         : {}),
+      sourceMapFilename: isDev
+        ? '[name].chunk.js.map'
+        : 'static/[name].[chunkhash:8].chunk.js.map',
+      devtoolModuleFilenameTemplate: info =>
+        path.resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
     },
     plugins: [
       new StartServerPlugin({

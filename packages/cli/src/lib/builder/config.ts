@@ -90,6 +90,7 @@ export const makeConfigs = async (
         }),
         esbuild({
           target: 'es2019',
+          sourceMap: true,
         }),
       ],
     });
