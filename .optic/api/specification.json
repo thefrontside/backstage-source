@@ -1,0 +1,1497 @@
+[
+  {
+    "BatchCommitStarted": {
+      "batchId": "380341e9-8c16-42f6-9f7e-3d9b45bbfd55",
+      "commitMessage": "Initialize specification attributes",
+      "eventContext": {
+        "clientId": "anonymous",
+        "clientSessionId": "unknown-session",
+        "clientCommandBatchId": "380341e9-8c16-42f6-9f7e-3d9b45bbfd55",
+        "createdAt": "2021-05-31T10:04:27.574494-04:00"
+      },
+      "parentId": "root"
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "metadata",
+      "key": "id",
+      "value": "6927accb-0aea-4168-bbed-1f9727eeb73e",
+      "eventContext": {
+        "clientId": "anonymous",
+        "clientSessionId": "unknown-session",
+        "clientCommandBatchId": "380341e9-8c16-42f6-9f7e-3d9b45bbfd55",
+        "createdAt": "2021-05-31T10:04:27.574494-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitEnded": {
+      "batchId": "380341e9-8c16-42f6-9f7e-3d9b45bbfd55",
+      "eventContext": {
+        "clientId": "anonymous",
+        "clientSessionId": "unknown-session",
+        "clientCommandBatchId": "380341e9-8c16-42f6-9f7e-3d9b45bbfd55",
+        "createdAt": "2021-05-31T10:04:27.574494-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitStarted": {
+      "batchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+      "commitMessage": "Adding getCatalogEntetiesByName endpoint",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      },
+      "parentId": "380341e9-8c16-42f6-9f7e-3d9b45bbfd55"
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_cpFqTLpCsc",
+      "parentPathId": "root",
+      "name": "api",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_OrzA48iXCl",
+      "parentPathId": "path_cpFqTLpCsc",
+      "name": "catalog",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_JBbtKw5SYt",
+      "parentPathId": "path_OrzA48iXCl",
+      "name": "entities",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_JJ5PdTtenf",
+      "parentPathId": "path_JBbtKw5SYt",
+      "name": "by-name",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_0V_x1Z2hTI",
+      "parentPathId": "path_JJ5PdTtenf",
+      "name": "component",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_5AEbVOJOpJ",
+      "parentPathId": "path_0V_x1Z2hTI",
+      "name": "default",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_0JJ8ac2MQX",
+      "parentPathId": "path_5AEbVOJOpJ",
+      "name": "backstage",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathParameterAdded": {
+      "pathId": "path_TmZe7Gyz1g",
+      "parentPathId": "path_JJ5PdTtenf",
+      "name": "kind",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "481338b0-1a73-4fdf-96d8-e79bb56dee6e",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathParameterShapeSet": {
+      "pathId": "path_TmZe7Gyz1g",
+      "shapeDescriptor": {
+        "shapeId": "481338b0-1a73-4fdf-96d8-e79bb56dee6e",
+        "isRemoved": false
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathParameterAdded": {
+      "pathId": "path_jB34mmFHfX",
+      "parentPathId": "path_TmZe7Gyz1g",
+      "name": "namespace",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "cdeebb29-2560-46ff-a536-af77cb065252",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathParameterShapeSet": {
+      "pathId": "path_jB34mmFHfX",
+      "shapeDescriptor": {
+        "shapeId": "cdeebb29-2560-46ff-a536-af77cb065252",
+        "isRemoved": false
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathParameterAdded": {
+      "pathId": "path_RKz_JCuwU6",
+      "parentPathId": "path_jB34mmFHfX",
+      "name": "name",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "4d54a7d1-4ed9-4a0f-b7e8-8758645f871d",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "PathParameterShapeSet": {
+      "pathId": "path_RKz_JCuwU6",
+      "shapeDescriptor": {
+        "shapeId": "4d54a7d1-4ed9-4a0f-b7e8-8758645f871d",
+        "isRemoved": false
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_H_AGYVsSz9",
+      "key": "description",
+      "value": "High level entity type for entities stored in the catalog",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_zcwkcdpyM7Y",
+      "key": "description",
+      "value": "The ID of a namespace that the entity belongs to. This is a string that follows the same format restrictions as name above.",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_myJxfByMUTk",
+      "key": "description",
+      "value": "The name of the entity.",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitEnded": {
+      "batchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "0f6bf675-1436-4751-ba66-bb3cba1ffb77",
+        "clientCommandBatchId": "513e4142-19d8-4d22-96df-02df4684b7ca",
+        "createdAt": "2021-05-31T10:26:15.928885-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitStarted": {
+      "batchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+      "commitMessage": "Adding entities by-name ",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+        "createdAt": "2021-05-31T10:28:51.113624-04:00"
+      },
+      "parentId": "513e4142-19d8-4d22-96df-02df4684b7ca"
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_TmZe7Gyz1g",
+      "key": "description",
+      "value": "High level entity type of records stored in the catalog",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+        "createdAt": "2021-05-31T10:28:51.113624-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_jB34mmFHfX",
+      "key": "description",
+      "value": "The ID of a namespace that the entity belongs to.",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+        "createdAt": "2021-05-31T10:28:51.113624-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_RKz_JCuwU6",
+      "key": "description",
+      "value": "The name of the entity.",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+        "createdAt": "2021-05-31T10:28:51.113624-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitEnded": {
+      "batchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "6e94bc44-5760-42d6-b0ff-585fd26dd631",
+        "createdAt": "2021-05-31T10:28:51.113624-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitStarted": {
+      "batchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+      "commitMessage": "Adding known catalog entities",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      },
+      "parentId": "6e94bc44-5760-42d6-b0ff-585fd26dd631"
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_r8y9ebiA1X",
+      "parentPathId": "path_OrzA48iXCl",
+      "name": "locations",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "RequestAdded": {
+      "requestId": "request_PT9eZ468jW",
+      "pathId": "path_RKz_JCuwU6",
+      "httpMethod": "GET",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_IpdcGSgWcs",
+      "baseShapeId": "$number",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_0HP_2Kzmf9",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_asLJPFbqf-",
+      "shapeId": "shape_0HP_2Kzmf9",
+      "name": "statusCode",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_asLJPFbqf-",
+          "shapeId": "shape_IpdcGSgWcs"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_jfMS7_TLGy",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_9V2Twuru29",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_Q86qY9sIgR",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_hIGvWadAqZ",
+      "shapeId": "shape_Q86qY9sIgR",
+      "name": "method",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_hIGvWadAqZ",
+          "shapeId": "shape_9V2Twuru29"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_L80dpeWS0X",
+      "shapeId": "shape_Q86qY9sIgR",
+      "name": "url",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_L80dpeWS0X",
+          "shapeId": "shape_jfMS7_TLGy"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_Wi463G3Vbm",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape__kyclQwi05",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_foIgGVcrhv",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_7da0vBkrYE",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_KgjhcZyAon",
+      "shapeId": "shape_7da0vBkrYE",
+      "name": "message",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_KgjhcZyAon",
+          "shapeId": "shape_foIgGVcrhv"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_nQvxRIyEPY",
+      "shapeId": "shape_7da0vBkrYE",
+      "name": "name",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_nQvxRIyEPY",
+          "shapeId": "shape__kyclQwi05"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_Vupopdx1pZ",
+      "shapeId": "shape_7da0vBkrYE",
+      "name": "stack",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_Vupopdx1pZ",
+          "shapeId": "shape_Wi463G3Vbm"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_aB6fbkY1bu",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_VJe0tvxVXr",
+      "shapeId": "shape_aB6fbkY1bu",
+      "name": "error",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_VJe0tvxVXr",
+          "shapeId": "shape_7da0vBkrYE"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_PNiu0uVf2K",
+      "shapeId": "shape_aB6fbkY1bu",
+      "name": "request",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_PNiu0uVf2K",
+          "shapeId": "shape_Q86qY9sIgR"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_C3gemAq-ms",
+      "shapeId": "shape_aB6fbkY1bu",
+      "name": "response",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_C3gemAq-ms",
+          "shapeId": "shape_0HP_2Kzmf9"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ResponseAddedByPathAndMethod": {
+      "responseId": "response_ZXGNyZnJfR",
+      "pathId": "path_RKz_JCuwU6",
+      "httpMethod": "GET",
+      "httpStatusCode": 404,
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ResponseBodySet": {
+      "responseId": "response_ZXGNyZnJfR",
+      "bodyDescriptor": {
+        "httpContentType": "application/json",
+        "shapeId": "shape_aB6fbkY1bu",
+        "isRemoved": false
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_RKz_JCuwU6.GET",
+      "key": "purpose",
+      "value": "Get Catalog Entity By Name",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_cImZoEACya",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_nCefaZH3MK",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_Dq6J-cYTS9",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_IgTm5HGGHb",
+      "shapeId": "shape_Dq6J-cYTS9",
+      "name": "target",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_IgTm5HGGHb",
+          "shapeId": "shape_nCefaZH3MK"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_FKBlcrHKP5",
+      "shapeId": "shape_Dq6J-cYTS9",
+      "name": "type",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_FKBlcrHKP5",
+          "shapeId": "shape_cImZoEACya"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "RequestAdded": {
+      "requestId": "request_PmqIjvWAmt",
+      "pathId": "path_r8y9ebiA1X",
+      "httpMethod": "POST",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "RequestBodySet": {
+      "requestId": "request_PmqIjvWAmt",
+      "bodyDescriptor": {
+        "httpContentType": "application/json",
+        "shapeId": "shape_Dq6J-cYTS9",
+        "isRemoved": false
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_QKdQDOhGOa",
+      "baseShapeId": "$number",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_houHaHlim4",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_NsrW2Hu6ne",
+      "shapeId": "shape_houHaHlim4",
+      "name": "statusCode",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_NsrW2Hu6ne",
+          "shapeId": "shape_QKdQDOhGOa"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_AZ-q-3wsTf",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_P3mvWqFWoc",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_uNJS0M6JW0",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_j5BfeUuAAc",
+      "shapeId": "shape_uNJS0M6JW0",
+      "name": "method",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_j5BfeUuAAc",
+          "shapeId": "shape_P3mvWqFWoc"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_btweDrnI90",
+      "shapeId": "shape_uNJS0M6JW0",
+      "name": "url",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_btweDrnI90",
+          "shapeId": "shape_AZ-q-3wsTf"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_hlSjVEdS9M",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_WbBhH9oz4U",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_-BxBXzs3yw",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_4ej4YbzijU",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_n7D1n64K0C",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_vy9-e-GM4X",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_8KAPOhEn0l",
+      "baseShapeId": "$number",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_88LSpTQUDh",
+      "baseShapeId": "$string",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_ZQACPbRBdF",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_sR47GgHrvQ",
+      "shapeId": "shape_ZQACPbRBdF",
+      "name": "code",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_sR47GgHrvQ",
+          "shapeId": "shape_88LSpTQUDh"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_7WOgbXetn9",
+      "shapeId": "shape_ZQACPbRBdF",
+      "name": "errno",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_7WOgbXetn9",
+          "shapeId": "shape_8KAPOhEn0l"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_euTrMMhxDm",
+      "shapeId": "shape_ZQACPbRBdF",
+      "name": "message",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_euTrMMhxDm",
+          "shapeId": "shape_vy9-e-GM4X"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_7xYVqBfjaX",
+      "shapeId": "shape_ZQACPbRBdF",
+      "name": "name",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_7xYVqBfjaX",
+          "shapeId": "shape_n7D1n64K0C"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_Jxjzb-Bt_I",
+      "shapeId": "shape_ZQACPbRBdF",
+      "name": "stack",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_Jxjzb-Bt_I",
+          "shapeId": "shape_4ej4YbzijU"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_X33c09Mg5H",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_1ckwa8_OCh",
+      "shapeId": "shape_X33c09Mg5H",
+      "name": "cause",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_1ckwa8_OCh",
+          "shapeId": "shape_ZQACPbRBdF"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field__ktUPI1YMV",
+      "shapeId": "shape_X33c09Mg5H",
+      "name": "message",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field__ktUPI1YMV",
+          "shapeId": "shape_-BxBXzs3yw"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_JdilGSek5K",
+      "shapeId": "shape_X33c09Mg5H",
+      "name": "name",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_JdilGSek5K",
+          "shapeId": "shape_WbBhH9oz4U"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_l_hglXS8P7",
+      "shapeId": "shape_X33c09Mg5H",
+      "name": "stack",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_l_hglXS8P7",
+          "shapeId": "shape_hlSjVEdS9M"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ShapeAdded": {
+      "shapeId": "shape_lDzTXxcW7M",
+      "baseShapeId": "$object",
+      "parameters": { "DynamicParameterList": { "shapeParameterIds": [] } },
+      "name": "",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_kYQwmxh5pQ",
+      "shapeId": "shape_lDzTXxcW7M",
+      "name": "error",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_kYQwmxh5pQ",
+          "shapeId": "shape_X33c09Mg5H"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_qZPuTN7U0g",
+      "shapeId": "shape_lDzTXxcW7M",
+      "name": "request",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_qZPuTN7U0g",
+          "shapeId": "shape_uNJS0M6JW0"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "FieldAdded": {
+      "fieldId": "field_eUJ_OlF-Sv",
+      "shapeId": "shape_lDzTXxcW7M",
+      "name": "response",
+      "shapeDescriptor": {
+        "FieldShapeFromShape": {
+          "fieldId": "field_eUJ_OlF-Sv",
+          "shapeId": "shape_houHaHlim4"
+        }
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ResponseAddedByPathAndMethod": {
+      "responseId": "response_CMBIKTtA6G",
+      "pathId": "path_r8y9ebiA1X",
+      "httpMethod": "POST",
+      "httpStatusCode": 409,
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ResponseBodySet": {
+      "responseId": "response_CMBIKTtA6G",
+      "bodyDescriptor": {
+        "httpContentType": "application/json",
+        "shapeId": "shape_lDzTXxcW7M",
+        "isRemoved": false
+      },
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "ContributionAdded": {
+      "id": "path_r8y9ebiA1X.POST",
+      "key": "purpose",
+      "value": "Create Catalog Location",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitEnded": {
+      "batchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91",
+        "createdAt": "2021-05-31T10:33:39.794834-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitStarted": {
+      "batchId": "76b12619-21d0-42ef-92ce-7e4ec693d264",
+      "commitMessage": "Changing",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "76b12619-21d0-42ef-92ce-7e4ec693d264",
+        "createdAt": "2021-05-31T10:47:51.289976-04:00"
+      },
+      "parentId": "2e06b07b-0b8f-4e3d-8a49-68705923ff91"
+    }
+  },
+  {
+    "PathComponentAdded": {
+      "pathId": "path_joWUVqDX2t",
+      "parentPathId": "path_5AEbVOJOpJ",
+      "name": "artist-lookup",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "76b12619-21d0-42ef-92ce-7e4ec693d264",
+        "createdAt": "2021-05-31T10:47:51.289976-04:00"
+      }
+    }
+  },
+  {
+    "RequestAdded": {
+      "requestId": "request_gFZvQW44R",
+      "pathId": "path_RKz_JCuwU6",
+      "httpMethod": "GET",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "76b12619-21d0-42ef-92ce-7e4ec693d264",
+        "createdAt": "2021-05-31T10:47:51.289976-04:00"
+      }
+    }
+  },
+  {
+    "BatchCommitEnded": {
+      "batchId": "76b12619-21d0-42ef-92ce-7e4ec693d264",
+      "eventContext": {
+        "clientId": "proud-cougar-19",
+        "clientSessionId": "3a079b09-8acc-4af5-87f6-500ef4d63e79",
+        "clientCommandBatchId": "76b12619-21d0-42ef-92ce-7e4ec693d264",
+        "createdAt": "2021-05-31T10:47:51.289976-04:00"
+      }
+    }
+  }
+]
