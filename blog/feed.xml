@@ -4,7 +4,7 @@
         <title>Backstage Software Catalog and Developer Platform Blog</title>
         <link>https://backstage.io/blog</link>
         <description>The best place to stay up-to-date with the latest Backstage Software Catalog and Developer Platform news and events.</description>
-        <lastBuildDate>Mon, 26 Jul 2021 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 May 2022 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,7 +12,85 @@
             <url>https://backstage.io/undefined</url>
             <link>https://backstage.io/blog</link>
         </image>
-        <copyright>Copyright © 2021 Backstage Project Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage page: https://www.linuxfoundation.org/trademark-usage</copyright>
+        <copyright>Copyright © 2022 Backstage Project Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage page: https://www.linuxfoundation.org/trademark-usage</copyright>
+        <item>
+            <title><![CDATA[Introducing the TechDocs Addon Framework]]></title>
+            <link>https://backstage.io/blog/2022/05/13/techdocs-addon-framework.html</link>
+            <guid>https://backstage.io/blog/2022/05/13/techdocs-addon-framework.html</guid>
+            <pubDate>Fri, 13 May 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><em>This blog post is co-authored by Eric Peterson (<a href="https://github.com/iamEAP">@iamEAP</a>), Spotify.</em></p>
+<p><img src="/blog/assets/22-05-13/techdocs-addon-header.gif" alt="backstage header"></p>
+<p><em>TL;DR:</em> Introducing the TechDocs Addon Framework — a way for us all to contribute and share additional features, TechDocs Addons, on top of the base docs-like-code experience.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New release: Backstage 1.0]]></title>
+            <link>https://backstage.io/blog/2022/03/17/backstage-1.0.html</link>
+            <guid>https://backstage.io/blog/2022/03/17/backstage-1.0.html</guid>
+            <pubDate>Thu, 17 Mar 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/22-03-16/release.1.0.gif" alt="backstage header"></p>
+<p><em>TL;DR:</em> If you’ve been waiting for Backstage to come out of beta, we’re excited to announce that Backstage 1.0 is here!</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Backstage Turns Two!]]></title>
+            <link>https://backstage.io/blog/2022/03/16/backstage-turns-two.html</link>
+            <guid>https://backstage.io/blog/2022/03/16/backstage-turns-two.html</guid>
+            <pubDate>Wed, 16 Mar 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/22-03-16/backstage-2nd-birthday.gif" alt="A cake celebrating Backstage’s second birthday"></p>
+<p><strong>TLDR:</strong> Backstage has turned two. Of course, this is software, so we expect things to move fast. But when you have a passionate, worldwide community building together, we’ve now seen firsthand just how fast that can be. We’re marking our second year as a community by becoming a CNCF incubating project, reaching 100 public adopters, releasing version 1.0 of the core app, and other very nice birthday gifts. Rather than a toddler finding their feet, Backstage today is beginning to look awfully grown-up for a two-year-old.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Avoid upgrade surprises with Backstage Upgrade Helper]]></title>
+            <link>https://backstage.io/blog/2022/03/04/backstage-upgrade-helper.html</link>
+            <guid>https://backstage.io/blog/2022/03/04/backstage-upgrade-helper.html</guid>
+            <pubDate>Fri, 04 Mar 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/22-03-04/backstage-upgrade-helper-post-header.png" alt="backstage header"></p>
+<p><em>TLDR;</em> The Spotify team recently announced <a href="https://backstage.github.io/upgrade-helper">Backstage Upgrade Helper</a>: a tool that helps adopters keep their Backstage application up-to-date. <strong>Spoiler alert</strong>: this is also a hidden and heartwarming tale about the beauty of open source innovation.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Say Hi to Backstage homepage templates!]]></title>
+            <link>https://backstage.io/blog/2022/01/25/backstage-homepage-templates.html</link>
+            <guid>https://backstage.io/blog/2022/01/25/backstage-homepage-templates.html</guid>
+            <pubDate>Tue, 25 Jan 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><em>This blog post is co-authored by Emma Indal (<a href="https://github.com/emmaindal">@emmaindal</a>), Spotify.</em></p>
+<p><img src="/blog/assets/22-01-25/homepage-template-blog-post-header.png" alt="homepage template"></p>
+<p><em>TLDR;</em> We’re excited to announce the arrival of homepage templates for Backstage. It can be intimidating to build up your own instance of Backstage, so we decided to make your life a bit easier by giving you an out-of-the-box homepage to hit the ground running. This template can be found in our <a href="https://backstage.io/storybook/?path=/story/plugins-home-templates--default-template">Backstage Storybook</a>, as well as future templates that we build.</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Backstage Wrapped 2021]]></title>
+            <link>https://backstage.io/blog/2021/12/20/backstage-wrapped-2021.html</link>
+            <guid>https://backstage.io/blog/2021/12/20/backstage-wrapped-2021.html</guid>
+            <pubDate>Mon, 20 Dec 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/21-12-20/backstage-wrapped-2021.png" alt="Backstage in 2021: 75+ public adopters, 500+ contributors, almost 2,000 forks, 9,000+ contributions, 4,000+ Discord members"></p>
+<p>What a year 2021 has been for the Backstage project and community. As the year comes to a close, we can look back at some of the happenings, the successes, and welcome all the newcomers to our growing community.</p>
+<p>In a year that has had its fair share of ups and downs, this community has been something that has brought me so much in the support you provide each other, your eagerness, passion, and willingness to share. Thank you to all of you for creating such a great community, and welcome to everyone joining us. I can’t wait to meet you all and see what great things we can create together in the new year.</p>
+<p>In 2021 we’ve seen the project and community grow in every dimension, reaching over 75 public adopters, over 500 contributors from around the world all bringing new ideas and perspectives. We’ve had so many of you sharing and demoing your hard work in our monthly community sessions, added new plugins, built new features and really started to see Backstage have an impact for engineering teams across so many of our users.</p>
+<p>Now let’s hear from the maintainers and look at the stats!</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Big 5-0]]></title>
+            <link>https://backstage.io/blog/2021/09/30/50-public-adopters.html</link>
+            <guid>https://backstage.io/blog/2021/09/30/50-public-adopters.html</guid>
+            <pubDate>Thu, 30 Sep 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>We’re excited to celebrate an important milestone for the Backstage community: 50+ <a href="https://github.com/backstage/backstage/blob/master/ADOPTERS.md">public adopters</a>!</p>
+<p><img src="/blog/assets/21-09-30/50-public-adopters.png" alt="Celebrating all of Backstage’s 50+ adopters."></p>
+<p>Before digging into why we believe this is so important, we want to send a huge “thank you” to all the Backstage adopters and contributors who have helped grow the Backstage community. First, to the publicly listed adopters as your visible support for the project excites others to learn more about Backstage. Second, to those non-listed adopters, many of whom still engage in the community via issues, comments, or code contributions. Thank you!</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The TechDocs Beta has landed]]></title>
+            <link>https://backstage.io/blog/2021/09/16/the-techdocs-beta-has-landed.html</link>
+            <guid>https://backstage.io/blog/2021/09/16/the-techdocs-beta-has-landed.html</guid>
+            <pubDate>Thu, 16 Sep 2021 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/21-09-16/backstage-techdocs-beta.gif" alt="TechDocs in Beta"></p>
+<p><strong>TLDR:</strong> Another beta has landed! We continue to focus on improving the stability and scalability of Backstage while enhancing its functionality. Thanks to focused efforts from the TechDocs core team and community, we're happy to say that TechDocs — <a href="https://backstage.io/blog/2020/09/08/announcing-tech-docs">our docs-like-code solution</a> for all the software in your catalog — is now, after <a href="https://backstage.io/blog/2021/07/26/software-templates-are-now-in-beta">Software Templates</a>, the second core feature to graduate to beta.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Software Templates is now in Beta]]></title>
             <link>https://backstage.io/blog/2021/07/26/software-templates-are-now-in-beta.html</link>
@@ -69,7 +147,8 @@
             <link>https://backstage.io/blog/2020/12/22/stability-index.html</link>
             <guid>https://backstage.io/blog/2020/12/22/stability-index.html</guid>
             <pubDate>Tue, 22 Dec 2020 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p><strong>TL;DR</strong> Backstage is heading out of alpha and moving onto the path to stable releases and an eventual version 1.0. As the community and ecosystem continue to grow at an increasing rate, we want to provide a solid foundation for everyone building things in, with, and around Backstage. So, today we’re introducing the <a href="https://backstage.io/docs/overview/stability-index">Stability Index</a> — a simple way to find out how likely (or unlikely) a specific package or plugin inside Backstage might be updated with major changes. By indicating the reliability of key features and APIs, this quick reference will help contributors and adopters better plan and coordinate their development efforts going forward.</p>
+            <description><![CDATA[<p>2022-01 update: The stability is now replaced by the <a href="https://backstage.io/docs/overview/versioning-policy">versioning policy</a>.</p>
+<p><strong>TL;DR</strong> Backstage is heading out of alpha and moving onto the path to stable releases and an eventual version 1.0. As the community and ecosystem continue to grow at an increasing rate, we want to provide a solid foundation for everyone building things in, with, and around Backstage. So, today we’re introducing the <a href="https://backstage.io/docs/overview/versioning-policy">Stability Index</a> — a simple way to find out how likely (or unlikely) a specific package or plugin inside Backstage might be updated with major changes. By indicating the reliability of key features and APIs, this quick reference will help contributors and adopters better plan and coordinate their development efforts going forward.</p>
 <p><img src="/blog/assets/2020-12-22/stability-index-hero.gif" alt="Animation cycling between stability index scores"></p>
 ]]></description>
         </item>
@@ -129,7 +208,7 @@
             <pubDate>Wed, 05 Aug 2020 06:00:00 GMT</pubDate>
             <description><![CDATA[<p><strong>TL;DR</strong> Today we are announcing a new Backstage feature: Software Templates. Simplify setup, standardize tooling, and deploy with the click of a button. Using automated templates, your engineers can spin up a new microservice, website, or other software component with your organization’s best practices built-in, right from the start.</p>
 <video width="100%" height="100%" controls>
-  <source src="/blog/assets/2020-08-05/feature.mp4" type="video/mp4">
+  <source src="/blog/assets/2020-08-05/feature.mp4" type="video/mp4" />
 </video>
 ]]></description>
         </item>
