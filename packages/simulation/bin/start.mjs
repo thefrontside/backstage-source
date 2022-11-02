@@ -25,6 +25,7 @@ main(function* () {
       audience: 'https://frontside-backstage',
       port: parseInt(serviceUrl.port),
     },
+    port: parseInt(serviceUrl.port),
     store,
     people,
     serviceURL: () => serviceUrl
