@@ -102,15 +102,7 @@ providers.</p>
 <p>The generic interface of a URL Reader instance looks like this.</p>
 <pre><code class="hljs css language-ts"><span class="hljs-keyword">export</span> <span class="hljs-keyword">type</span> UrlReader = {
   <span class="hljs-comment">/* Used to read a single file and return its content. */</span>
-  read(url: <span class="hljs-built_in">string</span>): <span class="hljs-built_in">Promise</span>&lt;Buffer&gt;;
-  <span class="hljs-comment">/**
-   * A replacement for the read method that supports options and complex responses.
-   *
-   * Use this whenever it is available, as the read method will be deprecated and
-   * eventually removed in the future.
-   */</span>
-  readUrl?(url: <span class="hljs-built_in">string</span>, options?: ReadUrlOptions): <span class="hljs-built_in">Promise</span>&lt;ReadUrlResponse&gt;;
-
+  readUrl(url: <span class="hljs-built_in">string</span>, options?: ReadUrlOptions): <span class="hljs-built_in">Promise</span>&lt;ReadUrlResponse&gt;;
   <span class="hljs-comment">/* Used to read a file tree and download as a directory. */</span>
   readTree(url: <span class="hljs-built_in">string</span>, options?: ReadTreeOptions): <span class="hljs-built_in">Promise</span>&lt;ReadTreeResponse&gt;;
   <span class="hljs-comment">/* Used to search a file in a tree. */</span>
@@ -140,8 +132,8 @@ backend plugins.</p>
 <p>Once the reader instance is available inside the plugin, one of its methods can
 directly be used with a URL. Some example usages -</p>
 <ul>
-<li><a href="https://github.com/backstage/backstage/blob/d5c83bb889b8142e343ebc4e4c0b90a02d1c1a3d/plugins/catalog-backend/src/ingestion/processors/codeowners/read.ts#L24-L33"><code>read</code></a> -
-Catalog using the <code>read</code> method to read the CODEOWNERS file in a repository.</li>
+<li><a href="https://github.com/backstage/backstage/blob/a7607b5/plugins/catalog-backend/src/modules/codeowners/lib/read.ts#L24-L33"><code>readUrl</code></a> -
+Catalog using the <code>readUrl</code> method to read the CODEOWNERS file in a repository.</li>
 <li><a href="https://github.com/backstage/backstage/blob/84a8788/plugins/techdocs-node/src/helpers.ts#L146-L167"><code>readTree</code></a> -
 TechDocs using the <code>readTree</code> method to download markdown files in order to
 generate the documentation site.</li>
@@ -183,9 +175,8 @@ for example.</p>
 all the methods of the <code>UrlReader</code> interface should be implemented. However it
 is okay to start by implementing just one of them and create issues for the
 remaining.</p>
-<h4><a class="anchor" aria-hidden="true" id="read"></a><a href="#read" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>read</h4>
-<p>NOTE: Use <code>readUrl</code> instead of <code>read</code>.</p>
-<p><code>read</code> method expects a user-friendly URL, something which can be copied from
+<h4><a class="anchor" aria-hidden="true" id="readurl"></a><a href="#readurl" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>readUrl</code></h4>
+<p><code>readUrl</code> method expects a user-friendly URL, something which can be copied from
 the browser naturally when a person is browsing the provider in their browser.</p>
 <ul>
 <li>✅ Valid URL :
@@ -194,15 +185,9 @@ the browser naturally when a person is browsing the provider in their browser.</
 <code>https://raw.githubusercontent.com/backstage/backstage/master/ADOPTERS.md</code></li>
 <li>❌ Not a valid URL : <code>https://github.com/backstage/backstage/ADOPTERS.md</code></li>
 </ul>
-<p>Upon receiving the URL, <code>read</code> converts the user-friendly URL into an API URL
+<p>Upon receiving the URL, <code>readUrl</code> converts the user-friendly URL into an API URL
 which can be used to request the provider's API.</p>
-<p><code>read</code> then makes an authenticated request to the provider API and returns the
-file's content.</p>
-<h4><a class="anchor" aria-hidden="true" id="readurl"></a><a href="#readurl" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>readUrl</code></h4>
-<p><code>readUrl</code> is a new interface that allows complex response objects and is
-intended to replace the <code>read</code> method. This new method is currently optional to
-implement which allows for a soft migration to <code>readUrl</code> instead of <code>read</code> in
-the future.</p>
+<p><code>readUrl</code> then makes an authenticated request to the provider API and returns the response containing the file's contents and ETag(if the provider supports it).</p>
 <h4><a class="anchor" aria-hidden="true" id="readtree"></a><a href="#readtree" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>readTree</code></h4>
 <p><code>readTree</code> method also expects user-friendly URLs similar to <code>read</code> but the URL
 should point to a tree (could be the root of a repository or even a

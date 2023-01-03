@@ -153,10 +153,10 @@ putting all extensions like this in a backend plugin package of their own in the
       <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">'Not initialized'</span>);
     }
 
-    <span class="hljs-keyword">const</span> raw = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.reader.read(
+    <span class="hljs-keyword">const</span> response = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.reader.readUrl(
       <span class="hljs-string">`https://frobs-<span class="hljs-subst">${<span class="hljs-keyword">this</span>.env}</span>.example.com/data`</span>,
     );
-    <span class="hljs-keyword">const</span> data = <span class="hljs-built_in">JSON</span>.parse(raw.toString());
+    <span class="hljs-keyword">const</span> data = <span class="hljs-built_in">JSON</span>.parse(<span class="hljs-keyword">await</span> response.buffer()).toString();
 
     <span class="hljs-comment">/** [5] **/</span>
     <span class="hljs-keyword">const</span> entities: Entity[] = frobsToEntities(data);
@@ -519,8 +519,8 @@ putting all extensions like this in a backend plugin package of their own in the
       <span class="hljs-comment">// API. If you prefer, you can just use plain fetch here</span>
       <span class="hljs-comment">// (from the node-fetch package), or any other method of</span>
       <span class="hljs-comment">// your choosing.</span>
-      <span class="hljs-keyword">const</span> data = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.reader.read(location.target);
-      <span class="hljs-keyword">const</span> json = <span class="hljs-built_in">JSON</span>.parse(data.toString());
+      <span class="hljs-keyword">const</span> response = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.reader.readUrl(location.target);
+      <span class="hljs-keyword">const</span> json = <span class="hljs-built_in">JSON</span>.parse((<span class="hljs-keyword">await</span> response.buffer()).toString());
       <span class="hljs-comment">// Repeatedly call emit(processingResult.entity(location, &lt;entity&gt;))</span>
     } <span class="hljs-keyword">catch</span> (error) {
       <span class="hljs-keyword">const</span> message = <span class="hljs-string">`Unable to read <span class="hljs-subst">${location.<span class="hljs-keyword">type</span>}</span>, <span class="hljs-subst">${error}</span>`</span>;
@@ -612,7 +612,7 @@ behavior for <code>system-x</code> that we implemented earlier.</p>
       <span class="hljs-comment">// We send the ETag from the previous run if it exists.</span>
       <span class="hljs-comment">// The previous ETag will be set in the headers for the outgoing request and system-x</span>
       <span class="hljs-comment">// is going to throw NOT_MODIFIED (HTTP 304) if the ETag matches.</span>
-      <span class="hljs-keyword">const</span> response = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.reader.readUrl?.(location.target, {
+      <span class="hljs-keyword">const</span> response = <span class="hljs-keyword">await</span> <span class="hljs-keyword">this</span>.reader.readUrl(location.target, {
         etag: cacheItem?.etag,
       });
       <span class="hljs-keyword">if</span> (!response) {
