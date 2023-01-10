@@ -20,7 +20,7 @@
 <tr><th>Interface</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/docs/reference/plugin-catalog-backend-module-incremental-ingestion.incrementalentityprovider">IncrementalEntityProvider</a></td><td>Ingest entities into the catalog in bite-sized chunks.<!-- -->A Normal <code>EntityProvider</code> allows you to introduce entities into the processing pipeline by calling an <code>applyMutation()</code> on the full set of entities. However, this is not great when the number of entities that you have to keep track of is extremely large because it entails having all of them in memory at once. An <code>IncrementalEntityProvider</code> by contrast allows you to provide batches of entities in sequence so that you never need to have more than a few hundred in memory at a time.</td></tr>
+<tr><td><a href="/docs/reference/plugin-catalog-backend-module-incremental-ingestion.incrementalentityprovider">IncrementalEntityProvider</a></td><td><p>Ingest entities into the catalog in bite-sized chunks.</p><p>A Normal <code>EntityProvider</code> allows you to introduce entities into the processing pipeline by calling an <code>applyMutation()</code> on the full set of entities. However, this is not great when the number of entities that you have to keep track of is extremely large because it entails having all of them in memory at once. An <code>IncrementalEntityProvider</code> by contrast allows you to provide batches of entities in sequence so that you never need to have more than a few hundred in memory at a time.</p></td></tr>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-incremental-ingestion.incrementalentityprovideroptions">IncrementalEntityProviderOptions</a></td><td></td></tr>
 </tbody>
 </table>

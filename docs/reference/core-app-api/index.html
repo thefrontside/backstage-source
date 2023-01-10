@@ -12,7 +12,7 @@
 </thead>
 <tbody>
 <tr><td><a href="/docs/reference/core-app-api.alertapiforwarder">AlertApiForwarder</a></td><td>Base implementation for the AlertApi that simply forwards alerts to consumers.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.apifactoryregistry">ApiFactoryRegistry</a></td><td>ApiFactoryRegistry is an ApiFactoryHolder implementation that enables registration of API Factories with different scope.<!-- -->Each scope has an assigned priority, where factories registered with higher priority scopes override ones with lower priority.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.apifactoryregistry">ApiFactoryRegistry</a></td><td><p>ApiFactoryRegistry is an ApiFactoryHolder implementation that enables registration of API Factories with different scope.</p><p>Each scope has an assigned priority, where factories registered with higher priority scopes override ones with lower priority.</p></td></tr>
 <tr><td><a href="/docs/reference/core-app-api.apiresolver">ApiResolver</a></td><td>Handles the actual on-demand instantiation and memoization of APIs out of an <a href="/docs/reference/core-app-api.apifactoryholder">ApiFactoryHolder</a><!-- -->.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appthemeselector">AppThemeSelector</a></td><td>Exposes the themes installed in the app, and permits switching the currently active theme.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.atlassianauth">AtlassianAuth</a></td><td>Implements the OAuth flow to Atlassian products.</td></tr>
@@ -28,7 +28,7 @@
 <tr><td><a href="/docs/reference/core-app-api.multipleanalyticsapi">MultipleAnalyticsApi</a></td><td>An implementation of the AnalyticsApi that can be used to forward analytics events to multiple concrete implementations.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.noopanalyticsapi">NoOpAnalyticsApi</a></td><td>Base implementation for the AnalyticsApi that does nothing.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.oauth2">OAuth2</a></td><td>Implements a generic OAuth2 flow for auth.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.oauthrequestmanager">OAuthRequestManager</a></td><td>The OAuthRequestManager is an implementation of the OAuthRequestApi.<!-- -->The purpose of this class and the API is to read a stream of incoming requests of OAuth access tokens from different providers with varying scope, and funnel them all together into a single request for each OAuth provider.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.oauthrequestmanager">OAuthRequestManager</a></td><td><p>The OAuthRequestManager is an implementation of the OAuthRequestApi.</p><p>The purpose of this class and the API is to read a stream of incoming requests of OAuth access tokens from different providers with varying scope, and funnel them all together into a single request for each OAuth provider.</p></td></tr>
 <tr><td><a href="/docs/reference/core-app-api.oktaauth">OktaAuth</a></td><td>Implements the OAuth flow to Okta products.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.oneloginauth">OneLoginAuth</a></td><td>Implements a OneLogin OAuth flow.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.samlauth">SamlAuth</a></td><td>Implements a general SAML based auth flow.</td></tr>
@@ -67,7 +67,7 @@
 </thead>
 <tbody>
 <tr><td><a href="/docs/reference/core-app-api.apiprovider">ApiProvider</a></td><td>Provides an <a href="/docs/reference/core-plugin-api.apiholder">ApiHolder</a> for consumption in the React tree.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.defaultconfigloader">defaultConfigLoader</a></td><td>The default config loader, which expects that config is available at compile-time in <code>process.env.APP_CONFIG</code>. APP_CONFIG should be an array of config objects as returned by the config loader.<!-- -->It will also load runtime config from the __APP_INJECTED_RUNTIME_CONFIG__ string, which can be rewritten at runtime to contain an additional JSON config object. If runtime config is present, it will be placed first in the config array, overriding other config values.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.defaultconfigloader">defaultConfigLoader</a></td><td><p>The default config loader, which expects that config is available at compile-time in <code>process.env.APP_CONFIG</code>. APP_CONFIG should be an array of config objects as returned by the config loader.</p><p>It will also load runtime config from the __APP_INJECTED_RUNTIME_CONFIG__ string, which can be rewritten at runtime to contain an additional JSON config object. If runtime config is present, it will be placed first in the config array, overriding other config values.</p></td></tr>
 </tbody>
 </table>
 <h2><a class="anchor" aria-hidden="true" id="type-aliases"></a><a href="#type-aliases" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Type Aliases</h2>
@@ -80,7 +80,7 @@
 <tr><td><a href="/docs/reference/core-app-api.apifactoryscope">ApiFactoryScope</a></td><td>Scope type when registering API factories.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.apiproviderprops">ApiProviderProps</a></td><td>Prop types for the ApiProvider component.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appcomponents">AppComponents</a></td><td>A set of replaceable core components that are part of every Backstage app.</td></tr>
-<tr><td><a href="/docs/reference/core-app-api.appconfigloader">AppConfigLoader</a></td><td>A function that loads in the App config that will be accessible via the ConfigApi.<!-- -->If multiple config objects are returned in the array, values in the earlier configs will override later ones.</td></tr>
+<tr><td><a href="/docs/reference/core-app-api.appconfigloader">AppConfigLoader</a></td><td><p>A function that loads in the App config that will be accessible via the ConfigApi.</p><p>If multiple config objects are returned in the array, values in the earlier configs will override later ones.</p></td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appcontext">AppContext</a></td><td>The central context providing runtime app specific state that plugin views want to consume.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appicons">AppIcons</a></td><td>A set of well-known icons that should be available within an app.</td></tr>
 <tr><td><a href="/docs/reference/core-app-api.appoptions">AppOptions</a></td><td>The options accepted by <a href="/docs/reference/core-app-api.createspecializedapp">createSpecializedApp()</a><!-- -->.</td></tr>

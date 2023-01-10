@@ -11,7 +11,7 @@
 <tr><th>Class</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldapclient">LdapClient</a></td><td>Basic wrapper for the <code>ldapjs</code> library.<!-- -->Helps out with promisifying calls, paging, binding etc.</td></tr>
+<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldapclient">LdapClient</a></td><td><p>Basic wrapper for the <code>ldapjs</code> library.</p><p>Helps out with promisifying calls, paging, binding etc.</p></td></tr>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldaporgentityprovider">LdapOrgEntityProvider</a></td><td>Reads user and group entries out of an LDAP service, and provides them as User and Group entities for the catalog.</td></tr>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldaporgreaderprocessor">LdapOrgReaderProcessor</a></td><td>Extracts teams and users out of an LDAP server.</td></tr>
 </tbody>
@@ -24,7 +24,7 @@
 <tbody>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.defaultgrouptransformer">defaultGroupTransformer(vendor, config, entry)</a></td><td>The default implementation of the transformation from an LDAP entry to a Group entity.</td></tr>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.defaultusertransformer">defaultUserTransformer(vendor, config, entry)</a></td><td>The default implementation of the transformation from an LDAP entry to a User entity.</td></tr>
-<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.mapstringattr">mapStringAttr(entry, vendor, attributeName, setter)</a></td><td>Maps a single-valued attribute to a consumer.<!-- -->This helper can be useful when implementing a user or group transformer.</td></tr>
+<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.mapstringattr">mapStringAttr(entry, vendor, attributeName, setter)</a></td><td><p>Maps a single-valued attribute to a consumer.</p><p>This helper can be useful when implementing a user or group transformer.</p></td></tr>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.readldapconfig">readLdapConfig(config)</a></td><td>Parses configuration.</td></tr>
 <tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.readldaporg">readLdapOrg(client, userConfig, groupConfig, options)</a></td><td>Reads users and groups out of an LDAP provider.</td></tr>
 </tbody>
@@ -44,9 +44,9 @@
 <tr><th>Variable</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldap_dn_annotation">LDAP_DN_ANNOTATION</a></td><td>The name of an entity annotation, that references the DN of the LDAP object it was ingested from.<!-- -->The DN is the fully qualified name that identifies the item; for example, for an item with the DN uid=john,ou=people,ou=spotify,dc=spotify,dc=net the generated entity would have this annotation, with that full string as its value.</td></tr>
-<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldap_rdn_annotation">LDAP_RDN_ANNOTATION</a></td><td>The name of an entity annotation, that references the RDN of the LDAP object it was ingested from.<!-- -->The RDN is the name of the leftmost attribute that identifies the item; for example, for an item with the fully qualified DN uid=john,ou=people,ou=spotify,dc=spotify,dc=net the generated entity would have this annotation, with the value &quot;john&quot;.</td></tr>
-<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldap_uuid_annotation">LDAP_UUID_ANNOTATION</a></td><td>The name of an entity annotation, that references the UUID of the LDAP object it was ingested from.<!-- -->The UUID is the globally unique ID that identifies the item; for example, for an item with the UUID 76ef928a-b251-1037-9840-d78227f36a7e, the generated entity would have this annotation, with that full string as its value.</td></tr>
+<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldap_dn_annotation">LDAP_DN_ANNOTATION</a></td><td><p>The name of an entity annotation, that references the DN of the LDAP object it was ingested from.</p><p>The DN is the fully qualified name that identifies the item; for example, for an item with the DN uid=john,ou=people,ou=spotify,dc=spotify,dc=net the generated entity would have this annotation, with that full string as its value.</p></td></tr>
+<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldap_rdn_annotation">LDAP_RDN_ANNOTATION</a></td><td><p>The name of an entity annotation, that references the RDN of the LDAP object it was ingested from.</p><p>The RDN is the name of the leftmost attribute that identifies the item; for example, for an item with the fully qualified DN uid=john,ou=people,ou=spotify,dc=spotify,dc=net the generated entity would have this annotation, with the value &quot;john&quot;.</p></td></tr>
+<tr><td><a href="/docs/reference/plugin-catalog-backend-module-ldap.ldap_uuid_annotation">LDAP_UUID_ANNOTATION</a></td><td><p>The name of an entity annotation, that references the UUID of the LDAP object it was ingested from.</p><p>The UUID is the globally unique ID that identifies the item; for example, for an item with the UUID 76ef928a-b251-1037-9840-d78227f36a7e, the generated entity would have this annotation, with that full string as its value.</p></td></tr>
 </tbody>
 </table>
 <h2><a class="anchor" aria-hidden="true" id="type-aliases"></a><a href="#type-aliases" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Type Aliases</h2>

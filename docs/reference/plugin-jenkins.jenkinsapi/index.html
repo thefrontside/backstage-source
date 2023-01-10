@@ -13,8 +13,8 @@
 <tr><th>Method</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/docs/reference/plugin-jenkins.jenkinsapi.getbuild">getBuild(options)</a></td><td>Get a single build.<!-- -->This takes an entity to support selecting between multiple jenkins instances.<!-- -->TODO: abstract jobFullName (so we could support differentiating between the same named job on multiple instances).</td></tr>
-<tr><td><a href="/docs/reference/plugin-jenkins.jenkinsapi.getprojects">getProjects(options)</a></td><td>Get the projects (jobs which have builds, not folders) including info about their lastBuild.<!-- -->Deciding what jobs are for an entity can be configured by the backstage _Integrator_ in the plugin-jenkins-backend setup and by the _Software Engineer_ using annotations agreed with the _Integrator_.<!-- -->Typically, a folder job will be identified and the backend plugin will recursively look for projects (jobs with builds) within that folder.</td></tr>
+<tr><td><a href="/docs/reference/plugin-jenkins.jenkinsapi.getbuild">getBuild(options)</a></td><td><p>Get a single build.</p><p>This takes an entity to support selecting between multiple jenkins instances.</p><p>TODO: abstract jobFullName (so we could support differentiating between the same named job on multiple instances).</p></td></tr>
+<tr><td><a href="/docs/reference/plugin-jenkins.jenkinsapi.getprojects">getProjects(options)</a></td><td><p>Get the projects (jobs which have builds, not folders) including info about their lastBuild.</p><p>Deciding what jobs are for an entity can be configured by the backstage _Integrator_ in the plugin-jenkins-backend setup and by the _Software Engineer_ using annotations agreed with the _Integrator_.</p><p>Typically, a folder job will be identified and the backend plugin will recursively look for projects (jobs with builds) within that folder.</p></td></tr>
 <tr><td><a href="/docs/reference/plugin-jenkins.jenkinsapi.retry">retry(options)</a></td><td></td></tr>
 </tbody>
 </table>
