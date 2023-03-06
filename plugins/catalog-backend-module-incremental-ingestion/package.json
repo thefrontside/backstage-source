@@ -69,8 +69,11 @@
     "@backstage/backend-app-api": "workspace:^",
     "@backstage/backend-defaults": "workspace:^",
     "@backstage/backend-test-utils": "workspace:^",
+    "@backstage/catalog-client": "workspace:^",
     "@backstage/cli": "workspace:^",
-    "@backstage/plugin-catalog-backend": "workspace:^"
+    "@backstage/plugin-permission-node": "workspace:^",
+    "@effection/jest": "^2.0.4",
+    "effection": "^2.0.6"
   },
   "files": [
     "dist",
