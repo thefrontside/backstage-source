@@ -99,7 +99,12 @@ export interface IncrementalEntityProvider<TCursor, TContext> {
       | {
           added: DeferredEntity[];
           removed: { entityRef: string }[];
-        };
+        }
+      | Promise<undefined>
+      | Promise<{
+          added: DeferredEntity[];
+          removed: { entityRef: string }[];
+        }>;
 
     /**
      * This method returns an array of topics for the IncrementalEntityProvider

@@ -347,7 +347,7 @@ export class IncrementalIngestionEngine
       return;
     }
 
-    const delta = provider.eventHandler.onEvent(params);
+    const delta = await provider.eventHandler.onEvent(params);
 
     if (delta) {
       if (delta.added.length > 0) {
